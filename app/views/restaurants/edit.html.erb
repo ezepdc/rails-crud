@@ -1,0 +1,6 @@
+<h1>Edit <%= @restaurant.name.capitalize %></h1>
+
+<%= render 'form', restaurant: @restaurant %>
+
+<br>
+<%= link_to "<- Back to restaurant", restaurant_path %>
